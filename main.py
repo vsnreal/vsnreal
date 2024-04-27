@@ -11,7 +11,7 @@ def user_interaction():
     if a.lower() in ("yes", "y", "evet", "e"):
         print("Fixing...")
         print("Oh.. Umm. This is my YouTube Channel, don't forget to sub plz. :^3")
-        print("@youtube.com/vsnreal")
+        print("youtube.com/@vsnreal")
 
         # Start cheer_up in a separate thread
         cheer_up_thread = threading.Thread(target=cheer_up)
